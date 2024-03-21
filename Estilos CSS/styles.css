@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #76D7C4; /* Verde azulado más claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 20px 25px; /* Borde redondeado */
+    overflow: hidden; /* Oculta los bordes redondeados de los hijos */
+}
+
+.half {
+    width: 45%;
+    padding: 20px;
+    background-color: #012E40; /* Fondo de las cajas de encriptar/desencriptar */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px solid #fff; /* Borde blanco */
+}
+
+.half:nth-child(odd) {
+    background-color: #012E40; /* Fondo donde se escribe */
+}
+
+h1 {
+    color: #fff; /* Texto en blanco para resaltar */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none; /* Sin borde */
+    border-radius: 3px;
+    background-color: #025959; /* Fondo donde se escribe */
+    color: #fff; /* Texto en blanco para resaltar */
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #02735E; /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición de color */
+}
+
+button:hover {
+    background-color: #60BF81; /* Verde más claro */
+}
+
+button:active {
+    background-color: #FFFF99; /* Amarillo claro al presionar */
+    transition: background-color 0s; /* Desactiva la transición para que el cambio sea instantáneo */
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #02735E; /* Fondo de texto donde sale el texto encriptado/desencriptado */
+    border: none; /* Sin borde */
+    border-radius: 3px;
+    color: #fff; /* Texto en blanco para resaltar */
+    height: 100px;
+    overflow:
