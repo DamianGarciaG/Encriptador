@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #76D7C4; /* Verde azulado más claro */
+    background-color: #76D7C4; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,26 +14,26 @@ body {
     justify-content: space-around;
     width: 80%;
     max-width: 800px;
-    border-radius: 20px 25px; /* Borde redondeado */
-    overflow: hidden; /* Oculta los bordes redondeados de los hijos */
+    border-radius: 20px 25px;
+    overflow: hidden; 
 }
 
 .half {
     width: 45%;
     padding: 20px;
-    background-color: #012E40; /* Fondo de las cajas de encriptar/desencriptar */
+    background-color: #012E40; 
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
-    border: 1px solid #fff; /* Borde blanco */
+    border: 1px solid #fff; 
 }
 
 .half:nth-child(odd) {
-    background-color: #012E40; /* Fondo donde se escribe */
+    background-color: #012E40;
 }
 
 h1 {
-    color: #fff; /* Texto en blanco para resaltar */
+    color: #fff;
 }
 
 label {
@@ -48,36 +48,36 @@ input[type="text"], input[type="password"] {
     margin-bottom: 10px;
     border: none; /* Sin borde */
     border-radius: 3px;
-    background-color: #025959; /* Fondo donde se escribe */
-    color: #fff; /* Texto en blanco para resaltar */
+    background-color: #025959;
+    color: #fff; 
 }
 
 button {
     padding: 8px 15px;
-    background-color: #02735E; /* Verde */
+    background-color: #02735E;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Transición de color */
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #60BF81; /* Verde más claro */
+    background-color: #60BF81; 
 }
 
 button:active {
-    background-color: #FFFF99; /* Amarillo claro al presionar */
-    transition: background-color 0s; /* Desactiva la transición para que el cambio sea instantáneo */
+    background-color: #FFFF99;
+    transition: background-color 0s;
 }
 
 .result {
     margin-top: 20px;
     font-weight: bold;
     padding: 10px;
-    background-color: #02735E; /* Fondo de texto donde sale el texto encriptado/desencriptado */
-    border: none; /* Sin borde */
+    background-color: #02735E; 
+    border: none; 
     border-radius: 3px;
-    color: #fff; /* Texto en blanco para resaltar */
+    color: #fff; 
     height: 100px;
     overflow:
